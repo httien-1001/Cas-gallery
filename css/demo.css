@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    z-index: 1000;
+}
+.sticky,.content{
+    padding-top: 0px;
+}
+.menu ul{
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    
+}
+.menu ul li{
+    padding: 25px 30px;
+    float: left;
+}
+.menu-left ul li a{
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.menu-left ul li:hover a{
+    border-bottom: 2px solid black;
+}
+.menu-right{
+    padding-top: 25px;
+    /* padding-left: 30px; */
+    text-transform: uppercase;
+}
+.top-pic{
+    width: 100%;
+    height: unset;
+    position: relative;
+}
+.top-pic img{
+    width: 100%;
+    height: 100%;
+ }
+ .top-pic:hover img{
+    opacity: 0.75;
+ }
+ .top-pic:hover .overlay{
+    height: 100%;
+
+ }
+ .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+  }
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.about{
+    position: relative;
+    margin-top: 75px;
+}
+.pic-1 img{
+    width: 400px;
+}
+.pic-2 img{
+    padding-top:140px;
+    padding-left: 30px;
+}
+.pic-2 img{
+    width: 450px;
+}
+.pic-3{
+    padding-top: 50px;
+}
+.pic-3 img{
+    padding-top: -50px !important;
+    padding-left: 60px;
+    width: 400px;
+}
+.layer-photo{
+    position: absolute;
+    /* left: 0px;
+    top: 0px; */
+    z-index: -1;
+    margin-bottom: 90px;
+  }
+  .layer-text h3{
+    font-style: italic;
+    padding-left: 30px;
+    
+  }
+  .contain-about-text{
+      width: 80%;
+  }
+  .about-text{
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 30px;
+      text-align: justify;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+.figma{
+    padding-top: 200px;
+  }
+.figma-left img{
+    padding-top: 200px;
+}
+.figma-left img{
+    width: 60%;
+  
+}
+.gallery{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.gall-border{
+    border-bottom: 2px solid #000;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.gall-border{
+    font-weight: bold;
+}
+.btn-pig{
+    border: none;
+    border-radius: none;
+}
+.w-l{
+    text-align: center;
+}
+.img-w-1{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width: 100%;
+
+}
+.img-w-3{
+    padding-top: 30px;
+    width: 100%;
+    
+}
+.img-w-5{
+    width: 100%;
+    padding-top: 30px;
+    height: 600px;
+}
+.img-w-6{
+    padding-top:70px;
+    width: 100%;
+    height: 592px;
+}
+canvas{
+    margin-top: 30px;
+    z-index: -1;
+}
+.footer{
+    
+    margin-top: 60px;
+    /* height: 200px; */
+    background-color: #000;
+    color: #fff;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-border{
+    margin: 0 auto;
+    width: 75%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border: 3px solid #fff
+}
+.footer-text h3{
+    padding-bottom: 15px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-item{
+    font-size: 20px;
+    text-align: left;
+}
+.footer-border i{
+    font-size: 20px;
+    padding-top: 20px;
+   padding-right: 5px;
+}
+/* effect */
+.fade-img{
+    position: relative;
+}
+.fade-overlay {
+    padding-top:30px;
+    padding-bottom:30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .8s ease;
+    
+  }
+  .fade-img:hover img{
+      opacity: 0.3;
+  }
+  .fade-img:hover .fade-overlay{
+      opacity: 1;
+  }
+.fade-text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
