@@ -17,9 +17,12 @@
     background-color: black;
     color: #fff;
 }
-.sticky,.content{
-    padding-top: 0px;
+/* .sticky,.content{
+    padding-top: 15px;
 }
+.content{
+    padding-top: 0px;
+} */
 .menu{
     background-color: black;
 }
@@ -48,11 +51,13 @@
     padding-top: 25px;
     /* padding-left: 30px; */
     text-transform: uppercase;
+    font-size: 1em;
 }
 .top-pic{
     width: 100%;
-    height: unset;
+    /* height: unset; */
     position: relative;
+    margin-bottom: 120px;
 }
 .top-pic img{
     width: 100%;
@@ -87,57 +92,19 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.about{
-    position: relative;
-    margin-top: 100px;
-}
-.pic-1 img{
-    width: 400px;
-}.pic-2{
-    /* padding-right: 135px; */
-}
-.pic-2 img{
-    
-    padding-top:140px;
-    padding-left: 150px;
-}
-.pic-2 img{
-    width: 625px;
-}
-.pic-3{
-    padding-top: 50px;
-}
-.pic-3 img{
-    padding-top: -50px !important;
-    padding-left: 60px;
-    width: 400px;
-}
-.layer-photo{
-    position: absolute;
-    /* left: 0px;
-    top: 0px; */
-    z-index: -1;
-    margin-bottom: 90px;
-}
-.layer-text{
-    text-align: center;
-}
-  .layer-text h3{
-    font-style: italic;
-    padding-left: 30px;
-    
+
+.figma{
+    padding-top: 200px;
   }
-  .contain-about-text{
-      /* width: 80%; */
+  .figma-left-border{
+      padding-top: 200px;
+      padding-left: 90px;
   }
-  .about-text{
-      width: 100%;
-      padding-left: 60px;
-      padding-right: 30px;
-      text-align: justify;
-      padding-top: 20px;
-      padding-bottom: 20px;
-  }
+.figma-left{
+    /* background-image: url('../photo/Asset\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 100 100; */
+}
 .figma{
     padding-top: 200px;
   }
@@ -182,12 +149,12 @@
 }
 .img-w-1{
     /* padding-top: 15px; */
-    padding-bottom: 30px;
+    padding-bottom: 90px;
     width: 100%;
 
 }
 .img-w-3{
-    padding-top: 30px;
+    padding-top: 160px;
     width: 100%;
     
 }
@@ -199,7 +166,7 @@
 .img-w-6{
     padding-top: 40px;
     width: 100%;
-    height: 560px;
+    /* height: 560px; */
 }
 canvas{
     margin-top: 30px;
@@ -274,3 +241,33 @@ canvas{
     transform: translate(-50%, -50%);
     text-align: left;
   }
+
+  /* sửa about */
+.about-1,.about-2,.about-3{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    padding-top: 60px;
+}
+.about-1 img,.about-2 img,.about-3 img{
+    width: 100%;
+    height: 100%;
+}
+.about-2{
+    padding-top: 130px;
+    height: 430px;
+    width: 430px;
+    padding-left: 130px;
+}
+.about-text-edited{
+    padding-left: 270px;
+}
+        .about-text-edited h3{
+            padding-left: 70px;
+            text-transform: uppercase;
+        }
+.about-text-edited-block h4{
+display: block;
+padding-bottom: 15px;
+        }
+    
